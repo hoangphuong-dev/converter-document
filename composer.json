@@ -14,11 +14,11 @@
         }
     },
     "require": {
-        "symfony/process": "v6.4.8",
-        "phuonght/mimey": "v1.0.0",
+        "symfony/process": "^5.4|^6.0|^7.0",
+        "phuonght/mimey": "^v1.0.0",
         "illuminate/support": "^10.0",
         "illuminate/filesystem": "^10.0",
-        "guzzlehttp/guzzle": "7.5.0",
+        "guzzlehttp/guzzle": "^6.0|^7.0",
         "nelexa/zip": "^4.0",
         "symfony/finder": "^6.0",
         "symfony/mime": "^6.0",
