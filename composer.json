@@ -1,6 +1,6 @@
 {
     "name": "phuonght/converter-document",
-    "description": "Suport convert document to other format",
+    "description": "Support converting documents to other formats",
     "type": "library",
     "authors": [
         {
@@ -14,11 +14,12 @@
         }
     },
     "require": {
-        "symfony/process": "^5.4|^6.0|^7.0",
-        "phuonght/mimey": "^v1.0.0",
+        "php": ">=7.4",
+        "symfony/process": "^6.0 || ^7.0",
+        "phuonght/mimey": "^1.0",
         "illuminate/support": "^10.0",
         "illuminate/filesystem": "^10.0",
-        "guzzlehttp/guzzle": "^6.0|^7.0",
+        "guzzlehttp/guzzle": "^7.0",
         "nelexa/zip": "^4.0",
         "symfony/finder": "^6.0",
         "symfony/mime": "^6.0",
@@ -26,7 +27,13 @@
         "ext-pcntl": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.0",
-        "symfony/var-dumper": "^4.3"
-    }
+        "phpunit/phpunit": "^9.0",
+        "symfony/var-dumper": "^6.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
